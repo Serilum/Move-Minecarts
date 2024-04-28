@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "moveminecarts",
-  "version": "3.4",
+  "version": "3.5",
 
   "name": "Move Minecarts",
   "description": "Allows players to easily pick up and move minecarts without breaking them.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.53"
+    "collective": ">=7.54"
   },
 
   "custom": {

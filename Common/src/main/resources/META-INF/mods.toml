@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="moveminecarts"
-version="3.4"
+version="3.5"
 displayName="Move Minecarts"
 displayURL="https://serilum.com/mod/move-minecarts"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.moveminecarts]]
     modId="collective"
     mandatory=true
-    versionRange="[7.53,)"
+    versionRange="[7.54,)"
     ordering="NONE"
     side="BOTH"
 
