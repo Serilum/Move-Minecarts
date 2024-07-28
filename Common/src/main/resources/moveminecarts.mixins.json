@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.moveminecarts.forge.mixin",
+  "package": "com.natamus.moveminecarts.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "moveminecarts_forge.refmap.json",
   "mixins": [
 
   ],
