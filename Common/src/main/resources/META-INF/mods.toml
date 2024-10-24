@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Move%20Minecarts"
+logoFile="icon.png"
+
+[[mods]]
+modId="moveminecarts"
+version="3.6"
+displayName="Move Minecarts"
+displayURL="https://serilum.com/mod/move-minecarts"
+authors="Rick South"
+description='''Allows players to easily pick up and move minecarts without breaking them.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, kate1073, Michael W. S., Tyler Behl, XAgent   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.moveminecarts]]
+    modId="collective"
+    mandatory=true
+    versionRange="[7.86,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.moveminecarts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.2,1.21.3]"
+    ordering="NONE"
+    side="BOTH"
