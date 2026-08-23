@@ -23,7 +23,7 @@ public class NeoForgeMinecartEvent {
 	}
 
 	@SubscribeEvent
-	public static void onMinecartClick(PlayerInteractEvent.EntityInteractSpecific e) {
+	public static void onMinecartClick(PlayerInteractEvent.EntityInteract e) {
 		if (MinecartEvent.onMinecartClick(e.getEntity(), e.getLevel(), e.getHand(), e.getTarget(), null).equals(InteractionResult.SUCCESS)) {
 			e.setCanceled(true);
 		}
