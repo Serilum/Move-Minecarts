@@ -14,7 +14,7 @@ description='''Allows players to easily pick up and move minecarts without break
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Josh, Linda Jansen, MWS, Tyler Behl   
+Andrean Olgo, AnyankaT, aternosorg, Cherriesaurus, Linda Jansen, MWS, Tyler Behl   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -29,6 +29,6 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.moveminecarts]]
     modId="minecraft"
     mandatory=true
-    versionRange="[26.2]"
+    versionRange="[26.3]"
     ordering="NONE"
     side="BOTH"
