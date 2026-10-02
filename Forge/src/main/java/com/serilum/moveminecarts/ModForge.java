@@ -1,9 +1,9 @@
-package com.natamus.moveminecarts;
+package com.serilum.moveminecarts;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.moveminecarts.forge.events.ForgeMinecartEvent;
-import com.natamus.moveminecarts.util.Reference;
+import com.serilum.moveminecarts.forge.events.ForgeMinecartEvent;
+import com.serilum.moveminecarts.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeMinecartEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeMinecartEvent.class);
 	}
 
 	private static void setGlobalConstants() {
