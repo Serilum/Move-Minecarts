@@ -1,6 +1,6 @@
-package com.natamus.moveminecarts.neoforge.events;
+package com.serilum.moveminecarts.neoforge.events;
 
-import com.natamus.moveminecarts.events.MinecartEvent;
+import com.serilum.moveminecarts.events.MinecartEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionResult;

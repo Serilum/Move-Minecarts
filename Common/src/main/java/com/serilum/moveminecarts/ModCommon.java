@@ -1,4 +1,4 @@
-package com.natamus.moveminecarts;
+package com.serilum.moveminecarts;
 
 public class ModCommon {
 
