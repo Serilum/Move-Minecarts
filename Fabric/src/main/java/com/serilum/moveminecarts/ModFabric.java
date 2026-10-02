@@ -1,10 +1,10 @@
-package com.natamus.moveminecarts;
+package com.serilum.moveminecarts;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectivePlayerEvents;
-import com.natamus.moveminecarts.events.MinecartEvent;
-import com.natamus.moveminecarts.util.Reference;
+import com.serilum.moveminecarts.events.MinecartEvent;
+import com.serilum.moveminecarts.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.player.UseEntityCallback;
 import net.minecraft.server.level.ServerLevel;
