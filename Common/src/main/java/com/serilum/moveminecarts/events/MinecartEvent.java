@@ -1,4 +1,4 @@
-package com.natamus.moveminecarts.events;
+package com.serilum.moveminecarts.events;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;

@@ -1,21 +1,21 @@
-package com.natamus.moveminecarts.neoforge.events;
+package com.serilum.moveminecarts.forge.events;
 
-import com.natamus.moveminecarts.events.MinecartEvent;
+import com.serilum.moveminecarts.events.MinecartEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
-import net.neoforged.neoforge.event.tick.PlayerTickEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-public class NeoForgeMinecartEvent {
+public class ForgeMinecartEvent {
 	@SubscribeEvent
-	public static void onPlayerTick(PlayerTickEvent.Pre e) {
-		Player player = e.getEntity();
+	public static void onPlayerTick(TickEvent.PlayerTickEvent e) {
+		Player player = e.player;
 		Level level = player.level();
-		if (level.isClientSide) {
+		if (level.isClientSide || !e.phase.equals(TickEvent.Phase.START)) {
 			return;
 		}
 
